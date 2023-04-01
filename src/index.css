@@ -49,6 +49,26 @@
   --duration: 250ms;
 }
 
+.greenSpinachImg {
+  /* background-image: url("../"); */
+  background-repeat: no-repeat;
+  background-position: left 0 bottom -163px;
+  background-size: 256px 392px;
+}
+
+@media screen and (min-width: 768px) {
+  .greenSpinachImg {
+    background-position: left 0 bottom -275px;
+    background-size: 423px 646px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .greenSpinachImg {
+    background-position: left 0 bottom -413px;
+    background-size: 558px 852px;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
