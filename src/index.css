@@ -41,6 +41,31 @@
   --secondaryBlackColor: #22252a;
   --greenColor: #8baa36;
   --secondaryGreenColor: #8aa936;
+  --errorColor: #e74a3b;
+  --warningColor: #f6c23e;
+  --successColor: #3cbc81;
+  --SectionTitleColor: #001833;
+  --mainTextColor: #3e4462;
+  --secondaryTextColor: #23262a;
+  --greyTextColor: #bdbdbd;
+  --secondaryGreyTextColor: #7e7e7e;
+  --secondaryGreyTextColorTransparent: rgba(126, 126, 126, 0.5);
+  --crossColor: #333333;
+  --inputBg: #d9d9d9;
+  --borderColor: #f0f0f0;
+  --ingridientsBcg: #ebf3d4;
+  --modalBg: #2a2c36;
+  --lineColor: #e0e0e0;
+  --secondaryLineColor: #707070;
+  --countColor: #333333;
+  --countBorder: rgba(51, 51, 51, 0.3);
+  --recipeText: rgba(0, 0, 0, 0.8);
+  --linksHoverColor: #1e1f28;
+  --inputBgWithOpacity: rgba(217, 217, 217, 0.15);
+  --bgScrolbarColorPrimary: #e7e5e5;
+  --bgScrolbarColorSecondary: rgba(217, 217, 217, 0.025);
+
+  --selectContentColor: rgba(0, 0, 0, 0.5);
 
   --card-set-gap: ____px;
   --hero-background-color: _____;
