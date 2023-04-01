@@ -32,6 +32,23 @@
   font-display: swap;
 }
 
+:root {
+  --bgColor: #fafafa;
+  --greyColor: #ececec;
+  --whiteColor: #ffffff;
+  --greyBgColor: #efefef;
+  --blackColor: #000000;
+  --secondaryBlackColor: #22252a;
+  --greenColor: #8baa36;
+  --secondaryGreenColor: #8aa936;
+
+  --card-set-gap: ____px;
+  --hero-background-color: _____;
+  --icons-color: #8baa36;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -98,4 +115,27 @@ button {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
