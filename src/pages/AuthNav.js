@@ -1,5 +1,5 @@
 const AuthNav = () => {
-  return <div>Hello</div>;
+  return <div></div>;
 };
 
 export default AuthNav;
