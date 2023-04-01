@@ -75,6 +75,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
 *,
 *::before,
 *::after {
