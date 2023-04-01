@@ -5,7 +5,7 @@ import App from "../src/components/App/App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
-// import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 // import { Provider } from "react-redux";
 // import { store, persistor } from "./redux/store";
 // import { PersistGate } from "redux-persist/integration/react";
@@ -15,12 +15,11 @@ root.render(
   <React.StrictMode>
     {/* <Provider store={store}> */}
     {/* <PersistGate loading={null} persistor={persistor}> */}
-    {/* <BrowserRouter basename="/front-end-so-yummy"> */}
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
-
-    {/* </BrowserRouter> */}
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </BrowserRouter>
     {/* </PersistGate> */}
     {/* </Provider> */}
   </React.StrictMode>
